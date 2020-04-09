@@ -1,0 +1,245 @@
+.title {
+    margin: 0;
+    font-family: 'Lato';
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: #999;
+    margin-bottom: 1em;
+    font-family: 'Lato';
+    font-size: 1.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu {
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #999;
+    vertical-align: bottom;
+}
+
+.menu-item-active {
+    position: relative;
+    bottom: -1px; /*elementul sa fie mai jos cu 1px*/
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top: 0;
+}
+
+.resume-content {
+    padding: 0 20px 0 20px;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: #f1f1f1;
+}
+
+.resume-title {
+    font-family: 'Lato';
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.resume-info {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-date {
+    background: turquoise;
+    text-align: center;
+    color: white;
+    height: 20px;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.resume-aside {
+    border-left: 1px solid gainsboro;
+    width: 50%;
+    padding: 0 20px 0 20px;
+    /*height: 80%; /* - acum bara de delimitare are exact inaltimea contentului din resume-aside*/
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-item {
+    margin: 0 0 15px 0;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.skills-bg {    
+    color: white;
+    padding: 2px;
+}
+
+.photoshop-level {
+    width: 50%;
+    /*background-image:linear-gradient(-45deg, darkred, darkred 20%, red 20%, red 40%, darkred 40%, darkred 60%, red 60%, red 80%, darkred 80%, darkred);*/
+    padding: 2px;
+    background-color: darkcyan;
+    background-image: linear-gradient(
+        135deg,
+        rgba(255,255,255,.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255,255,255,.15) 50%,
+        rgba(255,255,255,.15) 75%,
+        transparent 75%,
+        transparent /* 100% */
+    ); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.ilustrator-level {
+    width: 80%;
+    padding: 2px;
+    background-color: tomato;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.indesign-level {
+    width: 60%;
+    padding: 2px;
+    background-color: green;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.xd-level {
+    width: 25%;
+    padding: 2px;
+    background-color: violet;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.sketch-level {
+    width: 65%;
+    padding: 2px;
+    background-color: goldenrod;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.office-level {
+    width: 90%;
+    padding: 2px;
+    background-color: orange;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.linux-level {
+    width: 50%;
+    padding: 2px;
+    background-color: darkblue;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.user-level {
+    width: 50%;
+    padding: 2px;
+    background-color: rgb(17, 99, 74);
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.typography-level {
+    width: 50%;
+    padding: 2px;
+    background-color: rgb(21, 75, 136);
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.web-level {
+    width: 80%;
+    padding: 2px;
+    background-color: grey;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+
+.html-level {
+    width: 50%;
+    padding: 2px;
+    background-color: burlywood;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.php-level {
+    width: 40%;
+    padding: 2px;
+    background-color: darkblue;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.javascript-level {
+    width: 50%;
+    padding: 2px;
+    background-color: palevioletred;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.ruby-level {
+    width: 20%;
+    padding: 2px;
+    background-color: darkblue;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
+.python-level {
+    width: 90%;
+    padding: 2px;
+    background-color: rgb(107, 20, 24);
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    border-radius: 5px;
+    background-size: 5rem 5rem;
+}
