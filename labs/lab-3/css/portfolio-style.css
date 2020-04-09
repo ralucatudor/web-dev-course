@@ -1,0 +1,11 @@
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    /* height: 300px; */
+    width: 33%; /* calc(33%-10px) */
+    margin-bottom: 20px;
+    padding: 0 10px 0 10px;
+}

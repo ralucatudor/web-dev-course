@@ -1,0 +1,9 @@
+.contact-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contact-item {
+    text-align: center;
+    border: dotted 5px;
+}
