@@ -1,7 +1,7 @@
 # web-dev-course
 Web Development Course - UniBuc 2019/2020 - first year of studies, second semester
 
-Started with the front-end by learning HTML, CSS, and JavaScript. Then, continued with the back-end and APIs 
+Started with the front-end by learning HTML, CSS, and JavaScript. Then, continued with the back-end and APIs.
 
 See here the [repository for the lab exercises](https://github.com/WebToLearn/laborator-tehnici-web)
 
