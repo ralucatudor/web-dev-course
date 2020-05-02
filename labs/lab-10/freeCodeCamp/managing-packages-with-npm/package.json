@@ -1,13 +1,13 @@
 {
 	"name": "fcc-learn-npm-package-json",
-  "author": "Raluca",
-  "description": "A project that does something awesome",
-  "keywords": [ "descriptive", "related", "words", "freecodecamp" ],
-  "version": "^2.10.2",
-  "license": "MIT",
+	"author": "Raluca",
+	"description": "A project that does something awesome",
+	"keywords": [ "descriptive", "related", "words", "freecodecamp" ],
+	"version": "^2.10.2",
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0",
-    "moment": "^2.10.2"
+		"moment": "^2.10.2"
 	},
 	"main": "server.js",
 	"scripts": {
